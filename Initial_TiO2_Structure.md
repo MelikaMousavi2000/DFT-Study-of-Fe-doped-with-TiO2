@@ -75,7 +75,11 @@ This composition corresponds to two TiO2 formula units and maintains the correct
 
 After constructing the initial anatase TiO2 structure, geometry optimization was performed using the CASTEP module in Materials Studio.
 
-The initial atomic positions do not necessarily represent the most stable configuration of the crystal. This is because atomic arrangements are influenced by electrostatic attraction between nuclei and electrons, nucleus–nucleus repulsion, electron–electron repulsion, and chemical bonding interactions.
+The initial atomic positions do not necessarily represent the most stable configuration of the crystal. This is because atomic arrangements are influenced by:
+1. electrostatic attraction between nuclei and electrons
+2. nucleus–nucleus repulsion
+3. electron–electron repulsion
+4. chemical bonding interactions.
 
 Therefore, geometry optimization was performed to minimize the total energy, reduce residual atomic forces, and obtain a more stable atomic arrangement.
 
@@ -112,12 +116,4 @@ The following computational settings were selected:
 
 **Total Charge: 0:** Selected to represent an electrically neutral TiO2 unit cell.
 
----
 
-## 4. Objective of the Initial Calculation
-
-The main objective of this stage was to construct and optimize a pristine anatase TiO2 reference structure.
-
-This optimized structure will serve as the starting point for subsequent investigations of iron incorporation and its effects on the structural, electronic, magnetic, and surface properties of TiO2.
-
-**Next Step:** Validation of the optimized structure and preparation of an appropriate supercell for Fe substitution.
