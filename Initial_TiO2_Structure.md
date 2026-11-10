@@ -122,4 +122,23 @@ The following computational settings were selected:
 
 **Figure 1. Total Energy during CASTEP Geometry Optimization of Pristine Anatase TiO₂.**
 
-This graph shows the variation of the total energy over three optimization steps. The energy decreases slightly from the first to the second step and remains nearly constant in the third step. This behavior indicates that the structure is approaching an energetically more stable configuration.
+This graph shows the variation of the total energy over three optimization steps. The energy decreases slightly from the first to the second step and remains nearly constant in the third step.
+
+| Optimization Step | Total Energy (eV) |
+|:---:|---:|
+| Step 1 | -4956.67430 |
+| Step 2 | -4956.67435 |
+| Step 3 | -4956.67435 |
+
+**Step 1: Initial Structure**
+
+CASTEP evaluated the initial atomic structure and calculated its total energy.
+
+**Step 2: Atomic Position Adjustment**
+
+CASTEP adjusted the atomic positions to reduce the total energy. As a result, the energy became slightly more negative.
+
+**Step 3: Energy Stabilization**
+
+The total energy remained nearly constant, indicating that the structure was approaching an energetically stable configuration.
+
