@@ -116,4 +116,10 @@ The following computational settings were selected:
 
 **Total Charge: 0:** Selected to represent an electrically neutral TiO2 unit cell.
 
+### Geometry Optimization Results
 
+![CASTEP Geometry Optimization](CASTEP_Geometry_Optimization.png)
+
+**Figure 1. Total Energy during CASTEP Geometry Optimization of Pristine Anatase TiO₂.**
+
+This graph shows the variation of the total energy over three optimization steps. The energy decreases slightly from the first to the second step and remains nearly constant in the third step. This behavior indicates that the structure is approaching an energetically more stable configuration.
