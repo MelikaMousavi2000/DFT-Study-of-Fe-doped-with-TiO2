@@ -58,7 +58,8 @@ The stoichiometric atomic ratio is:
 
 ## 2. Construction of the Initial Anatase TiO2 Structure
 
-First, the initial crystal structure of the anatase phase of titanium dioxide (TiO2) was constructed using BIOVIA Materials Studio.
+First, The initial crystal structure of anatase TiO₂ was obtained from the AFLOW crystallographic database and imported into BIOVIA Materials Studio 2024.
+
 
 The atomic composition was defined according to the stoichiometric ratio of titanium to oxygen (Ti : O = 1 : 2).
 
