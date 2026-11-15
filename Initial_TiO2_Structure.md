@@ -88,7 +88,8 @@ a = b ≠ c
 ### 3️⃣ Space Group: I4₁/amd
 A space group tells us which symmetry operations can be applied to atoms or groups of atoms to generate equivalent positions in a crystal. Each letter and number represents a specific symmetry element or lattice-centering characteristic of the crystal.
 
-The letter I indicates a body-centered lattice, meaning that in addition to the lattice points at the corners of the unit cell, there is an equivalent lattice point at its center.
+The letter I (From the word Innenzentriert) indicates a body-centered lattice, meaning that in addition to the lattice points at the corners of the unit cell, there is an equivalent lattice point at its center.
+
 
 
 
