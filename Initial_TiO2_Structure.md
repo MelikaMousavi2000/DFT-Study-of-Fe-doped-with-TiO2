@@ -60,8 +60,42 @@ The stoichiometric atomic ratio is:
 
 First, The initial crystal structure of anatase TiO₂ was obtained from the AFLOW crystallographic database and imported into BIOVIA Materials Studio 2024.
 <img width="1920" height="1080" alt="Screenshot (2046)" src="https://github.com/user-attachments/assets/340a7758-9278-4e6d-af49-17e32792713c" />
+
 The display style was changed to Ball and Stick to better visualize the atomic arrangement.
 <img width="1920" height="1080" alt="Screenshot (2047)" src="https://github.com/user-attachments/assets/bf6fd03b-9c55-44a7-850a-a5e523f0ea2f" />
+
+---
+
+## 3. The Crystal Symmetry in Anatase TiO₂ 
+Symmetry means that a structure remains unchanged after a specific operation, such as rotation, reflection or translation. In anatase TiO₂, titanium (Ti) and oxygen (O) atoms are arranged in a regular and repeating pattern. Crystal symmetry helps us understand how this atomic arrangement repeats and which operations leave the structure unchanged.
+
+<img width="1920" height="1080" alt="symmery" src="https://github.com/user-attachments/assets/ac2be1e8-7532-4cec-9ac5-aee0aa01607a" />
+
+### 1️⃣ Periodicity: 3D (Crystal)
+The unit cell shown in Materials Studio represents a small repeating part of the crystal. By repeating this unit cell along the three lattice vectors (a, b, and c), a larger crystal can be constructed.
+
+<img width="1312" height="1199" alt="Repeating Anatase TiO₂ Crystal Lattice" src="https://github.com/user-attachments/assets/6745e635-0389-4140-8760-975e93f4583e" />
+
+### 2️⃣ Space Group: I4₁/amd
+Anatase TiO₂ belongs to the tetragonal crystal system and for a conventional tetragonal unit cell:
+
+a = b ≠ c
+
+α = β = γ = 90°
+
+<img width="1448" height="1086" alt="Anatase TiO₂ Tetragonal Unit Cell" src="https://github.com/user-attachments/assets/6afe40c2-7590-493e-9d75-5ec2ccd7641b" />
+
+### Space Group: I4₁/amd
+A space group describes the complete symmetry of a crystal structure. It includes operations such as rotation, reflection, translation, and combinations of these operations. For anatase TiO₂, the space group is I4₁/amd.
+
+
+
+
+
+
+
+
+
 
 
 
