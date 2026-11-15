@@ -85,16 +85,10 @@ a = b ≠ c
 
 <img width="1448" height="1086" alt="Anatase TiO₂ Tetragonal Unit Cell" src="https://github.com/user-attachments/assets/6afe40c2-7590-493e-9d75-5ec2ccd7641b" />
 
-### Space Group: I4₁/amd
-A space group describes the complete symmetry of a crystal structure. It includes operations such as rotation, reflection, translation, and combinations of these operations. For anatase TiO₂, the space group is I4₁/amd.
+### 3️⃣ Space Group: I4₁/amd
+A space group tells us which symmetry operations can be applied to atoms or groups of atoms to generate equivalent positions in a crystal. Each letter and number represents a specific symmetry element or lattice-centering characteristic of the crystal.
 
-
-
-
-
-
-
-
+The letter I indicates a body-centered lattice, meaning that in addition to the lattice points at the corners of the unit cell, there is an equivalent lattice point at its center.
 
 
 
