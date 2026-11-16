@@ -90,6 +90,10 @@ A space group tells us which symmetry operations can be applied to atoms or grou
 
 The letter I (From the word Innenzentriert) indicates a body-centered lattice, meaning that in addition to the lattice points at the corners of the unit cell, there is an equivalent lattice point at its center.
 
+<img width="585" height="341" alt="images" src="https://github.com/user-attachments/assets/34b13603-e039-4b73-a466-c0ec93be518e" />
+
+
+
 
 
 
