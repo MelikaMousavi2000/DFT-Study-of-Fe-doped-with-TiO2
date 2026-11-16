@@ -131,7 +131,9 @@ Anatase TiO₂ has 32 symmetry operations associated with its space group I4₁/
 
 ## Verification of Lattice Parameters of Anatase TiO₂
 The lattice parameters of the imported anatase TiO₂ structure were examined in BIOVIA Materials Studio using the Rebuild Crystal → Lattice Parameters window.
-<img width="1920" height="1080" alt="Screenshot (2061)" src="https://github.com/user-attachments/assets/6b970d84-d976-4fee-96fc-bd4571ffc2f9" />
+
+<img width="1419" height="722" alt="Screenshot (2061)" src="https://github.com/user-attachments/assets/c16bc7ea-3e31-4759-a906-c700340c4960" />
+
 The results satisfy the geometrical conditions of a conventional tetragonal unit cell:
 
 a = b ≠ c
