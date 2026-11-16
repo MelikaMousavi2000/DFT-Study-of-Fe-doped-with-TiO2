@@ -140,6 +140,16 @@ a = b ≠ c
 The equal values of a and b describe a square basal plane, while c represents the longer third lattice direction.
 These values are consistent with the expected conventional-cell geometry of anatase TiO₂ and will be used as reference values when evaluating the geometry-optimized structure.
 
+---
+
+## 🔬 Atomic Composition Verification
+Counting Ti and O atoms helps verify the correct Ti:O = 1:2 ratio in anatase TiO₂ and ensures that our initial crystal structure is suitable for DFT calculations. It also helps us compare our model with published studies, select an appropriate supercell, and determine the Fe doping concentration for future calculations.
+
+<img width="1920" height="1080" alt="Screenshot (2062)" src="https://github.com/user-attachments/assets/1a49e66a-f9cb-45e2-add4-53e79e3bf63d" />
+
+The conventional unit cell contains 4 Ti and 8 O atoms, corresponding to the correct stoichiometric ratio of Ti:O = 1:2. This confirms that the atomic composition is consistent with anatase TiO₂ and provides a suitable starting structure for subsequent DFT calculations.
+
+
 
 
 
