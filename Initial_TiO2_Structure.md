@@ -127,6 +127,18 @@ In anatase TiO₂, shifting the entire atomic arrangement by (½, ½, ½) of the
 ### 🔟 Number of Symmetry Operators: 32
 Anatase TiO₂ has 32 symmetry operations associated with its space group I4₁/amd, including rotations, reflections, and combinations with translations. These operations allow us to identify equivalent atomic positions without defining every atom independently.
 
+---
+
+## Verification of Lattice Parameters of Anatase TiO₂
+The lattice parameters of the imported anatase TiO₂ structure were examined in BIOVIA Materials Studio using the Rebuild Crystal → Lattice Parameters window.
+<img width="1920" height="1080" alt="Screenshot (2061)" src="https://github.com/user-attachments/assets/6b970d84-d976-4fee-96fc-bd4571ffc2f9" />
+The results satisfy the geometrical conditions of a conventional tetragonal unit cell:
+
+a = b ≠ c
+α = β = γ = 90°
+
+The equal values of a and b describe a square basal plane, while c represents the longer third lattice direction.
+These values are consistent with the expected conventional-cell geometry of anatase TiO₂ and will be used as reference values when evaluating the geometry-optimized structure.
 
 
 
