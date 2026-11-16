@@ -76,7 +76,7 @@ The unit cell shown in Materials Studio represents a small repeating part of the
 
 <img width="1312" height="1199" alt="Repeating Anatase TiO₂ Crystal Lattice" src="https://github.com/user-attachments/assets/6745e635-0389-4140-8760-975e93f4583e" />
 
-### 2️⃣ Space Group: I4₁/amd
+### 2️⃣ Crystal System: Tetragonal
 Anatase TiO₂ belongs to the tetragonal crystal system and for a conventional tetragonal unit cell:
 
 a = b ≠ c
@@ -92,7 +92,40 @@ The letter I (From the word Innenzentriert) indicates a body-centered lattice, m
 
 <img width="585" height="341" alt="images" src="https://github.com/user-attachments/assets/34b13603-e039-4b73-a466-c0ec93be518e" />
 
+### 4️⃣ International Tables Number: 141
+In crystallography, there are 230 different three-dimensional space groups and each space group has a unique identification number. For anatase TiO₂, the space group is I4₁/amd, and its international number is 141.
 
+### 5️⃣ Origin Choice: Origin-2
+The starting point is called the origin. In crystallography, atomic positions are described relative to a chosen origin. Origin-2  means that the second standard origin convention is being used for the selected space group.
+
+### 6️⃣ Crystal Class: 4/mmm
+
+4: Fourfold rotational symmetry
+m: Mirror symmetry
+4/mmm: A tetragonal point group containing rotational and mirror symmetries
+
+### 7️⃣ Long Name: I 4₁/a 2/m 2/d
+
+I: Body-centered lattice
+
+4₁: Fourfold screw axis
+
+a: Glide plane involving a translation along the a direction
+
+2: Twofold rotational symmetry
+
+m: Mirror plane
+
+d: Diamond-glide plane
+
+### 8️⃣ Schoenflies Name: D₄h¹⁹
+The symbol D₄h describes the point-group symmetry, while the superscript 19 identifies the corresponding space group within this Schoenflies family.
+
+### 9️⃣ Body-Centered Lattice Translations
+In anatase TiO₂, shifting the entire atomic arrangement by (½, ½, ½) of the conventional lattice vectors produces an equivalent crystal arrangement. This additional translational symmetry explains why the conventional cell contains 12 atoms (4 Ti + 8 O), while the smaller primitive cell contains only 6 atoms (2 Ti + 4 O). Both represent the same crystal structure.
+
+### 🔟 Number of Symmetry Operators: 32
+Anatase TiO₂ has 32 symmetry operations associated with its space group I4₁/amd, including rotations, reflections, and combinations with translations. These operations allow us to identify equivalent atomic positions without defining every atom independently.
 
 
 
