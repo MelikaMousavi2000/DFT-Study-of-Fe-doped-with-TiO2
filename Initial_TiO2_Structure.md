@@ -135,6 +135,7 @@ The lattice parameters of the imported anatase TiO₂ structure were examined in
 The results satisfy the geometrical conditions of a conventional tetragonal unit cell:
 
 a = b ≠ c
+
 α = β = γ = 90°
 
 The equal values of a and b describe a square basal plane, while c represents the longer third lattice direction.
