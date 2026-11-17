@@ -186,12 +186,23 @@ and also for the geometry optimization of pristine anatase TiO₂, Full Cell Opt
 
 ### Geometry Optimization Algorithm Settings
 
-| Parameter | Selected Setting | Reason for Selection |
-|---|---|---|
-| **Algorithm** | LBFGS | Helps CASTEP find a more stable structure by using atomic forces to predict which direction the atoms and lattice parameters should change to lower the energy. |
-| **Use Line Search** | Enabled | After finding the direction of movement, it helps CASTEP decide how far to move the atoms or adjust the cell without taking unnecessarily large steps. |
-| **Use Delocalized Internals** | Disabled | CASTEP uses the standard atomic coordinates instead of a special coordinate system based on combinations of bond lengths and angles. |
-| **Damped MD** | Inactive | This is another optimization method that gradually slows atomic motion to approach a stable structure. We do not need it because LBFGS is selected. |
-
 <img width="1920" height="1080" alt="Screenshot (2072)" src="https://github.com/user-attachments/assets/77301eee-6bc1-4d8f-9632-b4a278cd8edc" />
+
+### Geometry Optimization Algorithm Settings
+
+**Algorithm: LBFGS**
+
+The LBFGS algorithm was selected to help CASTEP find a lower-energy structure. It uses the calculated atomic forces and information from previous steps to determine how the atoms and lattice parameters should change during optimization.
+
+**Use Line Search: Enabled**
+
+Line Search was enabled to help CASTEP choose an appropriate step size. This prevents unnecessarily large movements and helps the optimization proceed more smoothly toward a stable structure.
+
+**Use Delocalized Internals: Disabled**
+
+This option was disabled because our anatase TiO₂ structure can be optimized using the standard atomic coordinate representation. Delocalized internal coordinates provide an alternative way to describe structural changes using combinations of bond lengths and angles, but they are not necessary for our initial optimization.
+
+**Damped MD: Inactive**
+
+Damped Molecular Dynamics is another method for optimizing structures by gradually reducing simulated atomic motion. Since we selected LBFGS as our optimization algorithm, Damped MD was not used.
 
