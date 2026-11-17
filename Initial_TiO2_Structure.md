@@ -206,3 +206,10 @@ This option was disabled because our anatase TiO₂ structure can be optimized u
 
 Damped Molecular Dynamics is another method for optimizing structures by gradually reducing simulated atomic motion. Since we selected LBFGS as our optimization algorithm, Damped MD was not used.
 
+### Job control
+
+We selected 4 out of 8 available CPU cores to balance calculation speed and computer resource usage. Using all 8 cores does not always make a calculation twice as fast because parallel processing requires communication between cores and may use more memory. For our initial 12-atom TiO₂ calculation, 4 cores provide a reasonable starting point.
+
+<img width="1920" height="1080" alt="Screenshot (2082)" src="https://github.com/user-attachments/assets/346be502-8207-472f-b3c6-a65de1555d52" />
+
+
