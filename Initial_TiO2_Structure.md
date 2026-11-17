@@ -153,21 +153,6 @@ Counting Ti and O atoms helps verify the correct Ti:O = 1:2 ratio in anatase TiO
 The conventional unit cell contains 4 Ti and 8 O atoms, corresponding to the correct stoichiometric ratio of Ti:O = 1:2. This confirms that the atomic composition is consistent with anatase TiO₂ and provides a suitable starting structure for subsequent DFT calculations.
 
 
-
-
-
-
-The atomic composition was defined according to the stoichiometric ratio of titanium to oxygen (Ti : O = 1 : 2).
-
-The initial unit cell contained:
-
-- 2 Titanium (Ti) atoms
-- 4 Oxygen (O) atoms
-
-This composition corresponds to two TiO2 formula units and maintains the correct stoichiometric ratio.
-
----
-
 ## 3. Geometry Optimization Using CASTEP
 
 After constructing the initial anatase TiO2 structure, geometry optimization was performed using the CASTEP module in Materials Studio.
@@ -195,47 +180,18 @@ The following computational settings were selected:
 | Spin-Orbit Coupling | Disabled |
 | Total Charge | 0 |
 
-### 3.2. Rationale for the Selected Parameters
+and also for the geometry optimization of pristine anatase TiO₂, Full Cell Optimization was selected in CASTEP. This option allows CASTEP to adjust both the atomic positions and the unit-cell parameters (a, b, and c) to find a more energetically stable structure. The goal is to obtain optimized lattice parameters and compare them with the initial values and published reference data.
 
-**Geometry Optimization:** Selected to relax the atomic positions and obtain a more energetically favorable structure.
+<img width="1920" height="1080" alt="Screenshot (2071)" src="https://github.com/user-attachments/assets/91ce0e8b-b630-42a6-9312-766fd41ea456" />
 
-**Quality: Fine:** Selected to provide relatively high numerical accuracy for the calculation.
+### Geometry Optimization Algorithm Settings
 
-**GGA-PBE:** Selected as a widely used exchange-correlation functional for investigating the structural properties of crystalline materials.
+| Parameter | Selected Setting | Reason for Selection |
+|---|---|---|
+| **Algorithm** | LBFGS | Helps CASTEP find a more stable structure by using atomic forces to predict which direction the atoms and lattice parameters should change to lower the energy. |
+| **Use Line Search** | Enabled | After finding the direction of movement, it helps CASTEP decide how far to move the atoms or adjust the cell without taking unnecessarily large steps. |
+| **Use Delocalized Internals** | Disabled | CASTEP uses the standard atomic coordinates instead of a special coordinate system based on combinations of bond lengths and angles. |
+| **Damped MD** | Inactive | This is another optimization method that gradually slows atomic motion to approach a stable structure. We do not need it because LBFGS is selected. |
 
-**Non-polarized:** Selected for the initial pristine TiO2 structure, which was treated as a non-magnetic reference system.
-
-**Metal: Disabled:** The pristine anatase TiO2 structure is a semiconductor rather than a metal.
-
-**DFT+U: Disabled:** The initial calculation was performed using conventional GGA-PBE to establish a reference structural model. The effect of DFT+U will be evaluated in subsequent Fe-doped models.
-
-**Spin-Orbit Coupling: Disabled:** SOC was neglected in the initial structural calculation to simplify the computational model.
-
-**Total Charge: 0:** Selected to represent an electrically neutral TiO2 unit cell.
-
-### Geometry Optimization Results
-
-![CASTEP Geometry Optimization](CASTEP_Geometry_Optimization.png)
-
-**Figure 1. Total Energy during CASTEP Geometry Optimization of Pristine Anatase TiO₂.**
-
-This graph shows the variation of the total energy over three optimization steps. The energy decreases slightly from the first to the second step and remains nearly constant in the third step.
-
-| Optimization Step | Total Energy (eV) |
-|:---:|---:|
-| Step 1 | -4956.67430 |
-| Step 2 | -4956.67435 |
-| Step 3 | -4956.67435 |
-
-**Step 1: Initial Structure**
-
-CASTEP evaluated the initial atomic structure and calculated its total energy.
-
-**Step 2: Atomic Position Adjustment**
-
-CASTEP adjusted the atomic positions to reduce the total energy. As a result, the energy became slightly more negative.
-
-**Step 3: Energy Stabilization**
-
-The total energy remained nearly constant, indicating that the structure was approaching an energetically stable configuration.
+<img width="1920" height="1080" alt="Screenshot (2072)" src="https://github.com/user-attachments/assets/77301eee-6bc1-4d8f-9632-b4a278cd8edc" />
 
